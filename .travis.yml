@@ -6,3 +6,7 @@ install:
 # command to run tests
 script: 
   - python test_monitor_sites.py
+notifications:
+  email:
+    on_success: always
+    on_failure: always
