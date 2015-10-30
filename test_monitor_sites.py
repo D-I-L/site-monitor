@@ -1,6 +1,7 @@
 import unittest
 import requests
 
+# sites to monitor
 sites = ['http://www.chicp.org']
 
 
