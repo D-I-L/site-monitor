@@ -8,5 +8,5 @@ script:
   - python test_monitor_sites.py
 notifications:
   email:
-    on_success: always
+    on_success: change
     on_failure: always
