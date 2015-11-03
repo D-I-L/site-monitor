@@ -2,7 +2,7 @@ import unittest
 import requests
 
 # web sites to monitor
-sites = ['http://www.chicp.org']
+sites = ['http://www.chicp.org', 'http://www.chicp.org/x']
 
 
 class TestSites(unittest.TestCase):
